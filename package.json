@@ -1,0 +1,11 @@
+{
+  "name": "gherkinincypress",
+  "version": "1.0.0",
+  "description": "Some Gherkin in Cypress for a Mistah",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Christensen",
+  "license": "ISC"
+}
