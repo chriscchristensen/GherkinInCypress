@@ -4,12 +4,12 @@ export class LoginPage {
         cy.visit('https://qa-instance-testing.vasion.com/Imperial_Invasion/login')
     }
     UsernameFieldType(typedText) {
-        cy.get('.username').type(typedText);
+        cy.get('#username').type(typedText);
     }
     PasswordFieldType(typedText) {
-        cy.get('.password').type(typedText)
+        cy.get('#password').type(typedText)
     }
     LoginButton(clickedButton) {
-        cy.get('.login-submit').should('have.attr', 'value', clickedButton).click()
+        cy.get('#login-submit').should('have.class', 'vasion-button divFullWidth', clickedButton).click()
     }
 }
