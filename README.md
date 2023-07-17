@@ -1,5 +1,5 @@
 # GherkinInCypress
-Some Gherkin in Cypress for a Mistah
+Some Gherkin in Cypress
 
 To install Cypress run npm install -D cypress@"ADD IN CORRECT VERSION NUMBER HERE"
 
